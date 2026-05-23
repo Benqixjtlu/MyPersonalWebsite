@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Zhang Benqi - Computer Science and AI software engineering portfolio focused on GenAI agents, industrial data systems, automotive functional safety, and applied perception."
+    />
+    <title>Zhang Benqi | AI Software Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand-mark" href="#home" aria-label="Zhang Benqi home">
+          <span>ZB</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="site-menu"
+          data-menu-toggle
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-panel" id="site-menu" data-menu>
+          <ul class="nav-links">
+            <li><a href="#education" data-nav-link data-i18n="nav.education">Education</a></li>
+            <li><a href="#about" data-nav-link data-i18n="nav.about">About</a></li>
+            <li><a href="#experience" data-nav-link data-i18n="nav.experience">Experience</a></li>
+            <li><a href="#projects" data-nav-link data-i18n="nav.projects">Projects</a></li>
+            <li><a href="#skills" data-nav-link data-i18n="nav.skills">Skills</a></li>
+            <li><a href="#interests" data-nav-link data-i18n="nav.interests">Interests</a></li>
+            <li><a href="#contact" data-nav-link data-i18n="nav.contact">Contact</a></li>
+          </ul>
+
+          <div class="nav-actions" aria-label="Language and resume actions">
+            <button
+              class="language-toggle"
+              type="button"
+              aria-label="Switch language"
+              aria-pressed="false"
+              data-language-toggle
+            >
+              <span data-lang-label>中文</span>
+            </button>
+            <a
+              class="resume-link"
+              href="%E5%BC%A0%E6%9C%AC%E7%A5%BAZhangBenqi_%E7%AE%80%E5%8E%86.pdf"
+              download
+              data-i18n="nav.resume"
+            >
+              Resume
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero-section section" id="home" aria-labelledby="hero-title">
+        <div class="hero-layout">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow" data-i18n="hero.eyebrow">AI Software Engineering / Computer Science</p>
+            <h1 id="hero-title" data-i18n="hero.name">Zhang Benqi</h1>
+            <p class="hero-lede" data-i18n="hero.lede">
+              Building agentic AI and data systems for production, safety, and field research contexts.
+            </p>
+            <p class="hero-summary" data-i18n="hero.summary">
+              Computer Science research master's student at Xi'an Jiaotong-Liverpool University and University of Idaho CS graduate. I work across GenAI agents, industrial data platforms, automotive functional safety, and applied perception.
+            </p>
+            <div class="hero-actions" aria-label="Primary actions">
+              <a class="primary-action" href="#projects" data-i18n="hero.projects">View Projects</a>
+              <a class="secondary-action" href="#contact" data-i18n="hero.contact">Contact</a>
+              <a
+                class="secondary-action"
+                href="%E5%BC%A0%E6%9C%AC%E7%A5%BAZhangBenqi_%E7%AE%80%E5%8E%86.pdf"
+                download
+                data-i18n="hero.resume"
+              >
+                Download Resume
+              </a>
+            </div>
+          </div>
+
+          <figure class="hero-portrait" data-reveal>
+            <div class="portrait-frame">
+              <img src="assets/photos/personal_photo.png" alt="Portrait of Zhang Benqi" fetchpriority="high" data-profile-photo />
+              <div class="photo-fallback" aria-hidden="true">
+                <span>ZB</span>
+                <strong>Zhang Benqi</strong>
+              </div>
+            </div>
+            <figcaption class="portrait-caption">
+              <span data-i18n="hero.photo.caption1">GenAI Systems</span>
+              <span data-i18n="hero.photo.caption2">Safety & Perception</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section education-section" id="education" aria-labelledby="education-title">
+        <div class="section-heading" data-reveal>
+          <h2 id="education-title" class="section-kicker" data-i18n="education.kicker">Education</h2>
+          <p class="section-intro" data-i18n="education.title">Computer science foundation with research and international engineering context.</p>
+        </div>
+
+        <div class="education-strip" data-reveal>
+          <article class="education-card education-card--xjtlu">
+            <div class="education-logo">
+              <img src="assets/logos/xjtlu-logo.svg" alt="Xi'an Jiaotong-Liverpool University logo" loading="lazy" decoding="async" />
+            </div>
+            <div class="education-copy">
+              <span data-i18n="edu.xjtlu.date">09/2025-06/2027</span>
+              <h3 data-i18n="edu.xjtlu.title">Xi'an Jiaotong-Liverpool University</h3>
+              <p data-i18n="edu.xjtlu.desc">MRes Computer Science, School of Intelligent Engineering and Jiangsu Industrial Technology Research Institute.</p>
+            </div>
+          </article>
+
+          <article class="education-card education-card--uidaho">
+            <div class="education-logo">
+              <img src="assets/logos/university-of-idaho-logo.png" alt="University of Idaho logo" loading="lazy" decoding="async" />
+            </div>
+            <div class="education-copy">
+              <span data-i18n="edu.uidaho.ra.date">05/2024-01/2025</span>
+              <h3 data-i18n="edu.uidaho.ra.title">University of Idaho</h3>
+              <p data-i18n="edu.uidaho.ra.desc">Full-scholarship research assistant in mechanical engineering and precision agriculture robotics.</p>
+            </div>
+          </article>
+
+          <article class="education-card education-card--uidaho">
+            <div class="education-logo">
+              <img src="assets/logos/university-of-idaho-logo.png" alt="University of Idaho logo" loading="lazy" decoding="async" />
+            </div>
+            <div class="education-copy">
+              <span data-i18n="edu.uidaho.bs.date">08/2020-05/2024</span>
+              <h3 data-i18n="edu.uidaho.bs.title">University of Idaho</h3>
+              <p data-i18n="edu.uidaho.bs.desc">B.S. Computer Science, College of Engineering. GPA 3.6/4.0, Dean's List, IELTS 7.0.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section compact-section" id="about" aria-labelledby="about-title">
+        <div class="section-heading" data-reveal>
+          <h2 id="about-title" class="section-kicker" data-i18n="about.kicker">Profile</h2>
+          <p class="section-intro" data-i18n="about.title">Applied AI systems, from domain requirements to production software.</p>
+        </div>
+        <div class="about-grid">
+          <p class="section-copy" data-reveal data-i18n="about.copy1">
+            I translate domain-heavy problems into software that can be tested, deployed, and used: agent workflows for production planning, RAG knowledge platforms, functional-safety tooling, and perception models for agricultural research.
+          </p>
+          <p class="section-copy" data-reveal data-i18n="about.copy2">
+            My work sits between engineering execution and applied research. I move comfortably from requirements and data modeling to backend services, frontend interfaces, CI/CD, cloud deployment, and model evaluation.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading" data-reveal>
+          <h2 id="experience-title" class="section-kicker" data-i18n="experience.kicker">Experience</h2>
+          <p class="section-intro" data-i18n="experience.title">Engineering across industrial AI, healthcare, safety, and research.</p>
+        </div>
+
+        <div class="timeline" data-reveal>
+          <article class="timeline-item">
+            <div class="timeline-brand">
+              <div class="timeline-logo timeline-logo--bosch">
+                <img src="assets/logos/bosch-logo.webp" alt="Bosch logo" loading="lazy" decoding="async" />
+              </div>
+              <div class="timeline-date" data-i18n="exp.bosch.date">02/2025-08/2025, 05/2026-present</div>
+            </div>
+            <div class="timeline-body">
+              <h3 data-i18n="exp.bosch.title">MOE 1.2, Bosch Automotive Systems</h3>
+              <p data-i18n="exp.bosch.desc">
+                Worked with MES workflows for battery and motor production lines, MAS and Databricks data operations, and production indicators such as M/T-Loss and CpK.
+              </p>
+              <p data-i18n="exp.bosch.desc2">
+                Built backend logic for scheduling and FMEA / production-instruction agents, supporting natural-language planning, quality-cost analysis, Azure DevOps CI/CD, Docker services, and Kubernetes deployment.
+              </p>
+              <ul class="tag-list" aria-label="Bosch technologies">
+                <li>MES</li>
+                <li>Databricks</li>
+                <li>Azure DevOps</li>
+                <li>Docker</li>
+                <li>Kubernetes</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-brand">
+              <div class="timeline-logo timeline-logo--az">
+                <img src="assets/logos/astrazeneca-logo.svg" alt="AstraZeneca logo" loading="lazy" decoding="async" />
+              </div>
+              <div class="timeline-date" data-i18n="exp.astrazeneca.date">03/2026-05/2026</div>
+            </div>
+            <div class="timeline-body">
+              <h3 data-i18n="exp.astrazeneca.title">Digital Healthcare, AstraZeneca</h3>
+              <p data-i18n="exp.astrazeneca.desc">
+                Developed and deployed agent projects for cross-department business needs with Python, .NET, and full-stack engineering practices, integrating AstraZeneca AI-Gateway with healthcare domain knowledge.
+              </p>
+              <ul class="tag-list" aria-label="AstraZeneca technologies">
+                <li>Python</li>
+                <li>.NET</li>
+                <li>AI Gateway</li>
+                <li>Claude Code</li>
+                <li>Codex</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-brand">
+              <div class="timeline-logo timeline-logo--tsari">
+                <img src="assets/logos/tsari-logo.png" alt="Tsinghua University Suzhou Automotive Research Institute logo" loading="lazy" decoding="async" />
+              </div>
+              <div class="timeline-date" data-i18n="exp.tsinghua.date">12/2025-03/2026</div>
+            </div>
+            <div class="timeline-body">
+              <h3 data-i18n="exp.tsinghua.title">Electronic Safety Center, Tsinghua University Suzhou Automotive Research Institute</h3>
+              <p data-i18n="exp.tsinghua.desc">
+                Developed ISO 26262 functional-safety tooling for HARA, including MATLAB / Simulink simulation, ODD scenario generation, drive and brake failure injection, SEC derivation, ASIL rating, and safety-goal outputs.
+              </p>
+              <ul class="tag-list" aria-label="Tsinghua technologies">
+                <li>ISO 26262</li>
+                <li>HARA</li>
+                <li>MATLAB</li>
+                <li>Simulink</li>
+                <li>ASIL</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-brand">
+              <div class="timeline-logo timeline-logo--idaho">
+                <img src="assets/logos/university-of-idaho-logo.png" alt="University of Idaho logo" loading="lazy" decoding="async" />
+              </div>
+              <div class="timeline-date" data-i18n="exp.uidaho.date">05/2024-01/2025</div>
+            </div>
+            <div class="timeline-body">
+              <h3 data-i18n="exp.uidaho.title">Research Assistant, Precision Agriculture Robotics Lab, University of Idaho</h3>
+              <p data-i18n="exp.uidaho.desc">
+                Applied YOLO and SAM to crop disease detection and yield prediction, designed annotation protocols, optimized attention-based model structures, and supported field data collection with Jetson Nano, GPR radar, and DJI drones.
+              </p>
+              <ul class="tag-list" aria-label="University of Idaho technologies">
+                <li>YOLO</li>
+                <li>SAM</li>
+                <li>Jetson Nano</li>
+                <li>GPR</li>
+                <li>LaTeX</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading" data-reveal>
+          <h2 id="projects-title" class="section-kicker" data-i18n="projects.kicker">Projects</h2>
+          <p class="section-intro" data-i18n="projects.title">Selected systems built at the edge of AI capability and domain constraints.</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-row" data-reveal>
+            <div class="project-index">01</div>
+            <div class="project-content">
+              <div class="project-heading">
+                <h3 data-i18n="project.hara.title">LLM-Assisted HARA Functional Safety Analysis Tool</h3>
+                <span data-i18n="project.hara.date">12/2025-03/2026</span>
+              </div>
+              <p data-i18n="project.hara.desc">
+                Combined automotive regulatory knowledge with AI reasoning to improve HARA analysis. Migrated simulation logic from MATLAB / Simulink to Python, generated ODD scenarios, automated failure simulations, and passed simulation outcomes into LLM context.
+              </p>
+              <ul class="tag-list" aria-label="HARA project technologies">
+                <li>LLM</li>
+                <li>Python</li>
+                <li>MATLAB</li>
+                <li>Simulink</li>
+                <li>ODD</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-row" data-reveal>
+            <div class="project-index">02</div>
+            <div class="project-content">
+              <div class="project-heading">
+                <h3 data-i18n="project.bosch.title">Bosch RBCWE2E GenAI Connectivity Platform</h3>
+                <span data-i18n="project.bosch.date">01/2025-08/2025</span>
+              </div>
+              <p data-i18n="project.bosch.desc">
+                Developed and deployed two agents that produced an initial two-week production plan for a 48V battery line and generated close to 50% of auxiliary instruction content. Contributed to RAG architecture over MES, SAP, customer data, Azure OpenAI, Databricks, and RBS semantic knowledge.
+              </p>
+              <ul class="tag-list" aria-label="Bosch platform technologies">
+                <li>Azure OpenAI</li>
+                <li>RAG</li>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>FastAPI</li>
+                <li>K8s</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-row" data-reveal>
+            <div class="project-index">03</div>
+            <div class="project-content">
+              <div class="project-heading">
+                <h3 data-i18n="project.gpr.title">GPR-Based Tuber Detection and Prediction Research</h3>
+                <span data-i18n="project.gpr.date">05/2024-01/2025</span>
+              </div>
+              <p data-i18n="project.gpr.desc">
+                Developed a non-destructive tuber detection protocol with ground penetrating radar to improve potato yield estimation. Processed thousands of breeding samples, enhanced B-Scan signals with MATLAB and Radan7, and built YOLOv8 models with attention mechanisms, reaching 83% accuracy in complex field scenes.
+              </p>
+              <ul class="tag-list" aria-label="GPR project technologies">
+                <li>GPR</li>
+                <li>YOLOv8</li>
+                <li>CAM</li>
+                <li>MATLAB</li>
+                <li>Radan7</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section compact-section" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading" data-reveal>
+          <h2 id="skills-title" class="section-kicker" data-i18n="skills.kicker">Skills</h2>
+          <p class="section-intro" data-i18n="skills.title">A practical stack for AI products, data systems, and research prototypes.</p>
+        </div>
+
+        <div class="skills-grid" data-reveal>
+          <section class="skill-group" aria-labelledby="skill-languages">
+            <h3 id="skill-languages" data-i18n="skills.languages">Languages</h3>
+            <p>Python, Java, C++, HTML/CSS/JS, SQL</p>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-ai">
+            <h3 id="skill-ai" data-i18n="skills.ai">AI / ML</h3>
+            <p>RAG, Agents, MCP, Function Calling, LangChain, Dify, PyTorch, YOLOv8, SAM, CAM</p>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-engineering">
+            <h3 id="skill-engineering" data-i18n="skills.engineering">Engineering</h3>
+            <p>React, TypeScript, Node.js, Flask, FastAPI, .NET</p>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-cloud">
+            <h3 id="skill-cloud" data-i18n="skills.cloud">Cloud / Tools</h3>
+            <p>Azure OpenAI, OpenAI SDK, Azure DevOps, Databricks, Docker, Kubernetes, Git, MySQL, MATLAB/Simulink</p>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-research">
+            <h3 id="skill-research" data-i18n="skills.research">Safety / Research</h3>
+            <p>ISO 26262, HARA, ODD, FMEA, ASIL, GPR, Radan7</p>
+          </section>
+        </div>
+      </section>
+
+      <section class="section interests-section" id="interests" aria-labelledby="interests-title">
+        <div class="section-heading" data-reveal>
+          <h2 id="interests-title" class="section-kicker" data-i18n="interests.kicker">Beyond Work</h2>
+          <p class="section-intro" data-i18n="interests.title">
+            Fitness, games, history, and travel keep my thinking grounded in discipline, systems, perspective, and curiosity.
+          </p>
+        </div>
+
+        <div class="interests-board" data-reveal>
+          <div
+            class="atlas-panel"
+            role="img"
+            aria-label="Abstract travel atlas with Suzhou, Wuxi, Shanghai, Moscow Idaho, and next stops."
+          >
+            <div class="atlas-meta">
+              <span data-i18n="interests.map.label">Personal Atlas</span>
+              <strong data-i18n="interests.map.title">Places that shaped the journey</strong>
+            </div>
+
+            <svg class="atlas-lines" viewBox="0 0 1000 420" aria-hidden="true">
+              <path class="atlas-land atlas-land--west" d="M72 246 C142 180 214 196 286 236 C360 278 440 246 510 192 C578 140 648 142 728 182 C808 222 872 206 934 150 L934 346 C820 322 704 332 596 358 C480 386 366 362 260 330 C174 304 112 316 72 348 Z" />
+              <path class="atlas-land atlas-land--east" d="M660 114 C710 72 786 78 840 112 C900 150 942 132 970 92 L970 270 C906 258 846 276 800 318 C746 366 682 350 626 302 C566 250 580 180 660 114 Z" />
+              <path class="atlas-route atlas-route--primary" d="M146 252 C272 116 438 220 558 176 C674 134 744 186 838 134" />
+              <path class="atlas-route atlas-route--secondary" d="M632 250 C682 210 722 226 764 198 C800 174 828 172 868 188" />
+              <path class="atlas-route atlas-route--tertiary" d="M704 230 C742 246 774 236 812 214" />
+              <path class="atlas-scanline" d="M80 88 H920" />
+              <path class="atlas-scanline atlas-scanline--low" d="M108 334 H892" />
+            </svg>
+
+            <span class="map-pin pin-suzhou">
+              <i aria-hidden="true"></i>
+              <span data-i18n="interests.pin.suzhou">Suzhou</span>
+            </span>
+            <span class="map-pin pin-wuxi">
+              <i aria-hidden="true"></i>
+              <span data-i18n="interests.pin.wuxi">Wuxi</span>
+            </span>
+            <span class="map-pin pin-shanghai">
+              <i aria-hidden="true"></i>
+              <span data-i18n="interests.pin.shanghai">Shanghai</span>
+            </span>
+            <span class="map-pin pin-moscow">
+              <i aria-hidden="true"></i>
+              <span data-i18n="interests.pin.moscow">Moscow, ID</span>
+            </span>
+            <span class="map-pin pin-next">
+              <i aria-hidden="true"></i>
+              <span data-i18n="interests.pin.next">Next stops</span>
+            </span>
+
+            <div class="atlas-readout" aria-hidden="true">
+              <span data-i18n="interests.readout.pnw">PNW</span>
+              <span data-i18n="interests.readout.delta">Yangtze Delta</span>
+              <span data-i18n="interests.readout.open">Open Route</span>
+            </div>
+
+            <p class="atlas-caption" data-i18n="interests.map.caption">
+              A static travel sketch, not a complete travel log: study, research, and the open line ahead.
+            </p>
+          </div>
+
+          <div class="interest-grid" aria-label="Personal interests">
+            <article class="interest-item">
+              <span>01</span>
+              <h3 data-i18n="interests.fitness.title">Fitness</h3>
+              <p data-i18n="interests.fitness.desc">Strength training keeps progress measurable, tactile, and honest.</p>
+            </article>
+            <article class="interest-item">
+              <span>02</span>
+              <h3 data-i18n="interests.games.title">Games</h3>
+              <p data-i18n="interests.games.desc">I enjoy strategy and interactive systems where rules create emergent behavior.</p>
+            </article>
+            <article class="interest-item">
+              <span>03</span>
+              <h3 data-i18n="interests.history.title">History</h3>
+              <p data-i18n="interests.history.desc">History gives technical work a wider lens: institutions, incentives, and consequences.</p>
+            </article>
+            <article class="interest-item">
+              <span>04</span>
+              <h3 data-i18n="interests.travel.title">Travel</h3>
+              <p data-i18n="interests.travel.desc">Travel resets context and makes different ways of building, living, and thinking visible.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-layout" data-reveal>
+          <div>
+            <h2 id="contact-title" class="section-kicker" data-i18n="contact.kicker">Contact</h2>
+            <p class="section-intro" data-i18n="contact.title">Open to AI engineering, agent systems, and applied research conversations.</p>
+          </div>
+          <div class="contact-links" aria-label="Contact links">
+            <a href="mailto:benqi26@outlook.com" aria-label="Email Zhang Benqi">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 6.5h16v11H4z" />
+                <path d="m4.5 7 7.5 6 7.5-6" />
+              </svg>
+              <span>benqi26@outlook.com</span>
+            </a>
+            <a href="https://github.com/Benqixjtlu" target="_blank" rel="noreferrer" aria-label="GitHub profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2.8a9.2 9.2 0 0 0-2.9 17.9c.46.08.63-.2.63-.44v-1.57c-2.56.56-3.1-1.1-3.1-1.1-.42-1.06-1.02-1.35-1.02-1.35-.83-.57.06-.56.06-.56.92.06 1.4.95 1.4.95.82 1.4 2.15 1 2.67.76.08-.59.32-1 .58-1.23-2.04-.23-4.18-1.02-4.18-4.55 0-1 .36-1.83.95-2.47-.1-.23-.41-1.17.09-2.44 0 0 .77-.25 2.53.94A8.7 8.7 0 0 1 12 7.3c.78 0 1.55.1 2.28.31 1.75-1.19 2.52-.94 2.52-.94.5 1.27.19 2.21.09 2.44.59.64.95 1.47.95 2.47 0 3.54-2.15 4.31-4.2 4.54.33.29.62.85.62 1.71v2.54c0 .24.17.52.64.43A9.2 9.2 0 0 0 12 2.8Z" />
+              </svg>
+              <span>github.com/Benqixjtlu</span>
+            </a>
+            <a
+              href="%E5%BC%A0%E6%9C%AC%E7%A5%BAZhangBenqi_%E7%AE%80%E5%8E%86.pdf"
+              download
+              aria-label="Download resume PDF"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3v11" />
+                <path d="m7.5 9.5 4.5 4.5 4.5-4.5" />
+                <path d="M5 18.5h14" />
+              </svg>
+              <span data-i18n="contact.resume">Download resume</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footer.copy">Designed as a static portfolio for AI software engineering work.</p>
+      <a href="#home" data-i18n="footer.top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
